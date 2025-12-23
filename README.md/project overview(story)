@@ -1,0 +1,37 @@
+# Customer Churn Analysis Project
+
+## Project Overview
+This project analyzes customer churn for a telecom company using Python, Pandas, and data visualization.
+
+## Dataset Information
+- Dataset: Telco Customer Churn
+- Rows: ~7043
+- Columns: 33
+- Target Variable: Churn Label
+
+## Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- VS Code
+- GitHub
+
+## Project Structure
+- data/ : Dataset files
+- notebooks/ : Jupyter notebooks for analysis
+- outputs/ : Saved charts and figures
+- ExploratoryDataAnalysis_EDA.md : Detailed EDA insights
+
+## Key Outcome
+- Month-to-month contracts have the highest churn
+- Long-term contracts reduce churn
+- Electronic check users churn the most
+- Automatic payment methods reduce churn
+
+## Outputs
+
+The following visualizations were generated during Exploratory Data Analysis and saved in the `outputs/` folder:
+
+- `contract_vs_churn.png` – Churn comparison across contract types
+- `tenure_vs_churn.png` – Relationship between customer tenure and churn
+- `payment_method_vs_churn.png` – Churn distribution by payment method
